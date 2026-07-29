@@ -3,12 +3,12 @@
 text = "Привет"
 number_1 = 42
 number_2 = 3.14
-list = [1, 2, 3]
+list_ = [1, 2, 3]
 
 print(type(text))
 print(type(number_1))
 print(type(number_2))
-print(type(list))
+print(type(list_))
 
 # Задание 2
 conversion = "python PROGRAMMING"
@@ -62,22 +62,3 @@ print(text_by_srez[::-1])
 # Задание 9
 print("Он сказал: \"Привет\"")
 print("Первая строка\nВторая строка")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
