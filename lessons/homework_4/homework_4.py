@@ -1,5 +1,4 @@
 # Задание 1
-from logging import captureWarnings
 
 text = "Привет"
 number_1 = 42
