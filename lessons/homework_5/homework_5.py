@@ -1,6 +1,6 @@
 # ЗАДАНИЕ 1
 fruits = ["яблоко"]
-fruits.append ("банан")
+fruits.append("банан")
 print(fruits)
 
 fruits.extend(["апельсин", "груша"])
