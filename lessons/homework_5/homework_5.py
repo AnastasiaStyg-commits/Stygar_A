@@ -30,6 +30,3 @@ print(numbers)
 
 numbers.reverse()
 print(numbers)
-
-
-
