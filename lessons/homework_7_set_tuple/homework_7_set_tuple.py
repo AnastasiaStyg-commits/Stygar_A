@@ -2,13 +2,13 @@
 fruits = {"яблоко", "банан"}
 fruits.add("апельсин")
 
-fruits.update(["груша","виноград"])
+fruits.update(["груша", "виноград"])
 
 fruits.discard("банан")
 
 fruits.discard("киви")
 
-#fruits.remove("киви")
+# fruits.remove("киви")
 
 fruits.pop()
 print(fruits)
