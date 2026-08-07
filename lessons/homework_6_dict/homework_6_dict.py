@@ -14,7 +14,7 @@ for key in student.items():
 for value in student.values():
     print(value)
 
-#Задание 2
+# Задание 2
 student1 = {"имя": "Иван", "возраст": 20, "курс": 2}
 student2 = {"имя": "Мария", "возраст": 21, "город": "Санкт-Петербург"}
 student3 = student1 | student2
