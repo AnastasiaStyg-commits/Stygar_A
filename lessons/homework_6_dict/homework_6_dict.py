@@ -8,8 +8,8 @@ student = {
 print(student.keys())
 print(student.values())
 
-for key in student.items():
-    print(key)
+for key, value in student.items():
+    print(f"{key}: {value}")
 
 for value in student.values():
     print(value)
