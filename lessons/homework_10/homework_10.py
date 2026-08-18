@@ -19,8 +19,10 @@ print(new_list)
 browser = {"browser": "chrome", "timeout": 3000}
 options = {"headless": True, "timeout": 5000}
 
+
 def start_session(browser, timeout, headless):
     return f"{browser}, timeout={timeout}, headless={headless}"
+
 
 # 1
 config = {**browser, **options}
