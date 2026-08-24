@@ -1,6 +1,7 @@
 # ЗАДАНИЕ 1: Функции и условия
 # 1. Создайте функцию calculate_total(price, tax_percent):
 
+
 def calculate_total(price, tax_percent):
     if tax_percent > 20 or price < 0:
         return "Errors"
@@ -8,6 +9,7 @@ def calculate_total(price, tax_percent):
     return total_prise
 
 # 2. Создайте функцию get_level(points)
+
 
 def get_level(points):
     if points >= 100:
@@ -20,7 +22,9 @@ def get_level(points):
         return "Новичок"
 
 # ЗАДАНИЕ 2: Функции с условиями и match/case
-def process_status(status) :
+
+
+def process_status(status):
     match status:
         case "active":
             return "Статус активен"
