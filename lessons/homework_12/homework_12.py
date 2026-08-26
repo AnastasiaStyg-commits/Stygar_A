@@ -12,9 +12,9 @@ class Book:
 
     def is_long(self):
         if self.pages > 300:
-           return True
+            return True
         else:
-           return False
+            return False
 
 
 Book_1 = Book("Руслан и Людмила", "Пушкин", 5)
@@ -38,14 +38,15 @@ class BankAccount:
 
     def withdraw(self, amount):
         if self.balance >= amount:
-           self.balance = self.balance - amount
-           return True
+            self.balance = self.balance - amount
+            return True
         else:
             print("Недостаточно средств")
             return False
 
     def get_balance(self):
         return self.balance
+
 
 accounts_1 = BankAccount("Alex", 1000)
 accounts_2 = BankAccount("Irina", 300)
