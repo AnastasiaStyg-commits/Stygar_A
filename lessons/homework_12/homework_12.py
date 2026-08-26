@@ -7,15 +7,15 @@ class Book:
         self.author = author
         self.pages = pages
 
-
     def get_info(self):
         return f"'{self.title}' автор {self.author}, {self.pages} стр."
 
     def is_long(self):
         if self.pages > 300:
-         return True
+           return True
         else:
-            return False
+           return False
+
 
 Book_1 = Book("Руслан и Людмила", "Пушкин", 5)
 Book_2 = Book("Тараканище", "Чуковский", 80)
@@ -29,7 +29,7 @@ print(Book_3.get_info())
 
 
 class BankAccount:
-    def __init__(self, owner, balance = 0):
+    def __init__(self, owner, balance=0):
         self.owner = owner
         self.balance = balance
 
