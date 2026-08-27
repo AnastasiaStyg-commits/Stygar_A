@@ -51,6 +51,9 @@ class BankAccount:
 accounts_1 = BankAccount("Alex", 1000)
 accounts_2 = BankAccount("Irina", 300)
 
+accounts_1.deposit(500)
+accounts_2.deposit(100)
+
 accounts_1.withdraw(2000)
 accounts_2.withdraw(100)
 
