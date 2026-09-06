@@ -11,7 +11,8 @@ class Animal(ABC):
     def make_sound(self):
         pass
 
-#ЧАСТЬ 2: Наследование - Классы Dog и Cat
+# ЧАСТЬ 2: Наследование - Классы Dog и Cat
+
 
 class Dog(Animal):
     def make_sound(self):
@@ -20,10 +21,12 @@ class Dog(Animal):
 
 class Cat(Animal):
     def make_sound(self):
-        print (f"{self.name} говорит: Мяу!")
+      print(f"{self.name} говорит: Мяу!")
 
 
-#ЧАСТЬ 3: Инкапсуляция - Класс Zoo (Зоопарк)
+# ЧАСТЬ 3: Инкапсуляция - Класс Zoo (Зоопарк)
+
+
 class Zoo:
     def __init__(self, name):
         self.name = name
@@ -38,12 +41,15 @@ class Zoo:
     def get_animals(self):
         return self.__animals
 
-#ЧАСТЬ 4: Полиморфизм - Работа с разными животными
+# ЧАСТЬ 4: Полиморфизм - Работа с разными животными
+
 
 def animal_sound(animal):
     animal.make_sound()
 
+
 # Данная функция принимает любой объект animal и вызывается make_sound()
+
 
 dog1 = Dog("Бобик", 3)
 dog2 = Dog("Шарик", 5)
@@ -58,8 +64,9 @@ zoo.add_animal(cat1)
 print(zoo.get_animals_count())
 
 for animal in zoo.get_animals():
-        animal.make_sound()
+    animal.make_sound()
 
 animal = Animal("Слон", 3)
-#Получила ошибку, тк Animal это абстрактный класс и содержит абстрактный метод, а они нужны для наследования, а не создания объектов
-
+# Получила ошибку, тк Animal это абстрактный класс
+# и содержит абстрактный метод
+# они нужны для наследования, а не создания объектов
