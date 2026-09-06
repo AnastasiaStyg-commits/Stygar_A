@@ -16,7 +16,7 @@ class Animal(ABC):
 
 class Dog(Animal):
     def make_sound(self):
-        print (f"{self.name} говорит: Гав-гав!")
+        print(f"{self.name} говорит: Гав-гав!")
 
 
 class Cat(Animal):
