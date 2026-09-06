@@ -21,7 +21,7 @@ class Dog(Animal):
 
 class Cat(Animal):
     def make_sound(self):
-      print(f"{self.name} говорит: Мяу!")
+        print(f"{self.name} говорит: Мяу!")
 
 
 # ЧАСТЬ 3: Инкапсуляция - Класс Zoo (Зоопарк)
