@@ -1,4 +1,5 @@
-#ЗАДАНИЕ 1: Декоратор
+# ЗАДАНИЕ 1: Декоратор
+
 
 def log_execution(func):
     def wrapper(*args, **kwargs):
@@ -8,14 +9,17 @@ def log_execution(func):
         return result
     return wrapper
 
+
 @log_execution
 def calculate_sum(a, b):
     return a + b
 
+
 result = calculate_sum(5, 3)
 print(result)
 
-#Задание 2
+
+# Задание 2
 
 
 class Book:
@@ -44,6 +48,7 @@ class Book:
 
     def get_info(self):
         return f"Книга '{self.title}' автор {self.author}, цена {self.price} руб."
+
 
 book1 = Book("1984", "Оруэлл")
 book2 = Book.create_from_string("Мастер и Маргарита|Булгаков")
